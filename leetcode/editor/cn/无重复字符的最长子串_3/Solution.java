@@ -64,7 +64,9 @@ import java.util.HashSet;
  * right接着右移，right右移到头时每次都记录下长度
  * 注意，由于right每次停止的地方都比最大长度大1，所以算距离时直接right-left就可以了
  */
-class Solution {
+
+
+public class Solution {
     public int lengthOfLongestSubstring(String s) {
         if(s == null || s.length() == 0){
             return 0;
@@ -97,3 +99,9 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+/**
+
+ *
+ * 执行用时：8 ms, 在所有 Java 提交中击败了55.16%的用户
+ * 内存消耗：38.4 MB, 在所有 Java 提交中击败了74.78%的用户
+ */
